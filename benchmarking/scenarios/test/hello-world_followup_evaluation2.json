@@ -1,0 +1,13 @@
+{
+  "name": "followup_site_reachable",
+  "description": "Sanity check that the production site remains reachable after adding 'Goodbye'",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Access public URL",
+      "expected": "Site should respond with HTTP 200",
+      "value": 1.0
+    }
+  ]
+}

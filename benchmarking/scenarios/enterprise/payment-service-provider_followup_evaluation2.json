@@ -1,0 +1,67 @@
+{
+  "name": "security_compliance_journey_evaluation",
+  "description": "Test the security features and compliance automation journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /admin/advanced-security",
+      "expected": "Advanced security features should load including biometric authentication and 3D Secure",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to security features",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on advanced security",
+      "expected": "Should display biometric authentication and 3D Secure features",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /admin/compliance-automation",
+      "expected": "Regulatory compliance automation should load with real-time monitoring",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on compliance automation",
+      "expected": "Should display real-time monitoring capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /admin/partnerships",
+      "expected": "Partner ecosystem integration should load with accounting software and e-commerce platforms",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on partnership integration",
+      "expected": "Should display integration options for accounting software and e-commerce platforms",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /admin/disputes",
+      "expected": "Advanced dispute management system should load with automated chargeback handling",
+      "value": 1.0
+    },
+    {
+      "step": 9,
+      "action": "Click on dispute management",
+      "expected": "Should display automated chargeback handling capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 10,
+      "action": "Navigate to /admin/training",
+      "expected": "Staff training system should load with advanced payment features and global compliance guides",
+      "value": 1.0
+    }
+  ]
+} 

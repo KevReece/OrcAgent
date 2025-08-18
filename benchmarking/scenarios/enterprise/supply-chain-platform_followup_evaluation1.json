@@ -1,0 +1,67 @@
+{
+  "name": "ai_blockchain_journey_evaluation",
+  "description": "Test the AI-powered features and blockchain transparency journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /admin/ai-forecasting",
+      "expected": "AI-powered demand forecasting should load with predictive analytics and scenario modeling",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to AI forecasting",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on AI forecasting",
+      "expected": "Should display AI-powered demand forecasting and predictive analytics for supply planning",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /admin/route-optimization",
+      "expected": "Advanced route optimization should load with real-time traffic and weather analysis",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on route optimization",
+      "expected": "Should provide real-time traffic and weather analysis for route optimization",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /admin/blockchain",
+      "expected": "Blockchain-based supply chain transparency should load with immutable tracking",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on blockchain tracking",
+      "expected": "Should display immutable tracking capabilities for supply chain transparency",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /admin/trade-compliance",
+      "expected": "Global trade compliance system should load with customs documentation and regulatory reporting",
+      "value": 1.0
+    },
+    {
+      "step": 9,
+      "action": "Click on trade compliance",
+      "expected": "Should display customs documentation and regulatory reporting features",
+      "value": 1.5
+    },
+    {
+      "step": 10,
+      "action": "Navigate to /admin/risk-management",
+      "expected": "Advanced risk management should load with supply chain mapping and disruption prediction",
+      "value": 1.0
+    }
+  ]
+} 

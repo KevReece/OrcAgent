@@ -1,0 +1,67 @@
+{
+  "name": "ai_warehouse_journey_evaluation",
+  "description": "Test the AI-powered features and warehouse optimization journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /admin/forecasting",
+      "expected": "AI-powered demand forecasting should load with predictive analytics for optimal stock levels",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to forecasting dashboard",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on forecasting analysis",
+      "expected": "Should display AI-powered demand forecasting and predictive analytics for stock optimization",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /warehouse",
+      "expected": "Advanced warehouse management system should load with pick-and-pack optimization",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on warehouse optimization",
+      "expected": "Should display pick-and-pack optimization for warehouse operations",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /admin/supplier-integration",
+      "expected": "Automated supplier communication should load with EDI integration for seamless procurement",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on supplier integration",
+      "expected": "Should display automated supplier communication and EDI integration features",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /admin/business-intelligence",
+      "expected": "Business intelligence dashboard should load with executive reporting and KPI tracking",
+      "value": 1.0
+    },
+    {
+      "step": 9,
+      "action": "Click on business intelligence",
+      "expected": "Should display executive reporting and KPI tracking for business insights",
+      "value": 1.5
+    },
+    {
+      "step": 10,
+      "action": "Navigate to /admin/product-lifecycle",
+      "expected": "Advanced product lifecycle management should load with seasonal planning",
+      "value": 1.0
+    }
+  ]
+} 

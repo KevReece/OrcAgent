@@ -1,0 +1,67 @@
+{
+  "name": "crypto_international_journey_evaluation",
+  "description": "Test the cryptocurrency and international payment processing journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /admin/crypto",
+      "expected": "Cryptocurrency payment processing should load with multiple blockchain support",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to crypto processing",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on crypto processing",
+      "expected": "Should display multiple blockchain support capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /admin/international",
+      "expected": "International payment processing should load with multi-currency support",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on international payments",
+      "expected": "Should display multi-currency support features",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /admin/advanced-fraud",
+      "expected": "Advanced fraud detection should load with AI-powered risk assessment",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on fraud detection",
+      "expected": "Should display AI-powered risk assessment capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /admin/subscriptions",
+      "expected": "Subscription and recurring payment management should load with automated billing",
+      "value": 1.0
+    },
+    {
+      "step": 9,
+      "action": "Click on subscription management",
+      "expected": "Should display automated billing capabilities for recurring payments",
+      "value": 1.5
+    },
+    {
+      "step": 10,
+      "action": "Navigate to /admin/white-label",
+      "expected": "White-label solution should load for financial institutions and enterprise clients",
+      "value": 1.0
+    }
+  ]
+} 

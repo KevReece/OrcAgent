@@ -1,0 +1,67 @@
+{
+  "name": "core_supply_chain_management_evaluation",
+  "description": "Test core supply chain management features including suppliers, procurement, and logistics",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /",
+      "expected": "Homepage should load without errors and display supply chain management platform with professional design",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Navigate to /auth",
+      "expected": "User authentication system should load with role-based access control (executives, managers, staff, suppliers)",
+      "value": 1.0
+    },
+    {
+      "step": 3,
+      "action": "Navigate to /admin/dashboard",
+      "expected": "Executive dashboard should display supply chain overview, KPIs, and strategic insights",
+      "value": 1.0
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /suppliers",
+      "expected": "Supplier management system should load with qualification, performance tracking, and contract management",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Test supplier management features",
+      "expected": "Should provide supplier qualification, performance tracking, and contract management capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /procurement",
+      "expected": "Order processing and procurement system should load with automated workflows, approval processes, and cost optimization",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Test procurement features",
+      "expected": "Should display automated workflows, approval processes, and cost optimization for procurement",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /logistics",
+      "expected": "Logistics coordination system should load with route optimization, carrier management, and shipment tracking",
+      "value": 1.0
+    },
+    {
+      "step": 9,
+      "action": "Test logistics features",
+      "expected": "Should provide route optimization, carrier management, and shipment tracking capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 10,
+      "action": "Navigate to /inventory",
+      "expected": "Inventory tracking and warehouse management should load with real-time visibility, demand forecasting, and optimization",
+      "value": 1.0
+    }
+  ]
+} 

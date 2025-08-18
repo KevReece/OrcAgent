@@ -1,0 +1,67 @@
+{
+  "name": "ai_video_journey_evaluation",
+  "description": "Test the AI-powered features and video conferencing journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /admin/ai-recommendations",
+      "expected": "AI-powered personalized learning recommendations should load with adaptive content delivery system",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to AI recommendations",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on AI recommendation",
+      "expected": "Should display AI-powered learning recommendations and adaptive content delivery capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /live-sessions",
+      "expected": "Advanced video conferencing should load with breakout rooms and screen sharing",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on video conferencing",
+      "expected": "Should provide breakout rooms and screen sharing capabilities for live sessions",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /enterprise",
+      "expected": "Corporate training and enterprise learning management system should load with SSO",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on enterprise features",
+      "expected": "Should display enterprise LMS features with SSO capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /advanced-assessments",
+      "expected": "Advanced assessment tools should load with plagiarism detection and peer review",
+      "value": 1.0
+    },
+    {
+      "step": 9,
+      "action": "Click on advanced assessment",
+      "expected": "Should display plagiarism detection and peer review capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 10,
+      "action": "Navigate to /admin/languages",
+      "expected": "Multi-language support should load with internationalization for global course delivery",
+      "value": 1.0
+    }
+  ]
+} 

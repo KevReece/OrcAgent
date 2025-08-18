@@ -1,0 +1,67 @@
+{
+  "name": "assessments_community_journey_evaluation",
+  "description": "Test the assessments and community features journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /assessments",
+      "expected": "Assessment and quiz system should load with automated grading, feedback, and certification tracking",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'student' and password 'student123'",
+      "expected": "Should authenticate student user and grant access to assessments",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on assessment item",
+      "expected": "Should provide automated grading, feedback, and certification tracking capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /community",
+      "expected": "Interactive learning features should load including discussion forums, live sessions, and peer collaboration",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on forum post",
+      "expected": "Should display discussion forums, live session capabilities, and peer collaboration tools",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /mobile",
+      "expected": "Mobile-responsive learning interface should load with offline course access and progress synchronization",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on mobile interface",
+      "expected": "Should provide mobile interface with offline course access and progress synchronization",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /payments",
+      "expected": "Payment processing should load with subscription management for course purchases and memberships",
+      "value": 1.0
+    },
+    {
+      "step": 9,
+      "action": "Click on payment option",
+      "expected": "Should display payment processing and subscription management for courses and memberships",
+      "value": 1.5
+    },
+    {
+      "step": 10,
+      "action": "Navigate to /admin/analytics",
+      "expected": "Analytics dashboard should load showing student engagement, course completion rates, and learning outcomes",
+      "value": 1.0
+    }
+  ]
+} 

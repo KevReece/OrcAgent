@@ -1,0 +1,55 @@
+{
+  "name": "integrations_analytics_journey_evaluation",
+  "description": "Test the integrations and analytics journey for task management",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /collaboration",
+      "expected": "Real-time collaboration features should load with comments, file sharing, and activity feeds",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate user and grant access to collaboration features",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on add comment button",
+      "expected": "Should allow adding comments, sharing files, and viewing activity feeds",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /calendar",
+      "expected": "Calendar integration should load with Google Calendar and Outlook scheduling features",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on calendar event",
+      "expected": "Should allow scheduling tasks and deadlines with calendar integration",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /integrations",
+      "expected": "Integration system should load with Slack, GitHub, and Trello connections",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on integration option",
+      "expected": "Should display integration options for Slack, GitHub, and Trello with connection status",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /analytics",
+      "expected": "Time tracking and productivity analytics should load with detailed reporting and insights",
+      "value": 1.0
+    }
+  ]
+} 

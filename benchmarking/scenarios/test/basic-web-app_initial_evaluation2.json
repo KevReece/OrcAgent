@@ -1,0 +1,13 @@
+{
+  "name": "health_evaluation",
+  "description": "Test health of the basic web application",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Test health endpoint at /health",
+      "expected": "Health endpoint should return 'healthy' status",
+      "value": 1.0
+    }
+  ]
+} 

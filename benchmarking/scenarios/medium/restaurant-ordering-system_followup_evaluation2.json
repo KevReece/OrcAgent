@@ -1,0 +1,55 @@
+{
+  "name": "staff_training_journey_evaluation",
+  "description": "Test the staff training and business optimization journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /admin/training",
+      "expected": "Staff training system should load with advanced system features and business optimization guides",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to training system",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on training materials",
+      "expected": "Should display advanced system features and business optimization training materials",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /admin/analytics",
+      "expected": "Business optimization dashboard should load with operational efficiency metrics",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on business analytics",
+      "expected": "Should display operational efficiency metrics and business optimization insights",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /admin/performance",
+      "expected": "Performance tracking should load with customer satisfaction and efficiency metrics",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on performance metrics",
+      "expected": "Should display customer satisfaction and operational efficiency tracking",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /mobile",
+      "expected": "Mobile application should load with offline capabilities and push notifications",
+      "value": 1.0
+    }
+  ]
+} 

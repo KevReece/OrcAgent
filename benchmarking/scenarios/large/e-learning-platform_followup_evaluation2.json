@@ -1,0 +1,67 @@
+{
+  "name": "staff_training_journey_evaluation",
+  "description": "Test the staff training and white-label solution journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /admin/training",
+      "expected": "Staff training system should load with advanced learning features and platform administration guides",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to training system",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on training materials",
+      "expected": "Should display advanced learning features and platform administration training materials",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /admin/white-label",
+      "expected": "White-label solution should load for SkillBridge Academy to license to other educational institutions",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on white-label configuration",
+      "expected": "Should display white-label configuration options for licensing to other educational institutions",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /admin/scaling",
+      "expected": "Business scaling tools should load with growth planning and expansion features",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on scaling tools",
+      "expected": "Should display growth planning and expansion features for business scaling",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /admin/global",
+      "expected": "Global delivery system should load with internationalization and localization features",
+      "value": 1.0
+    },
+    {
+      "step": 9,
+      "action": "Click on global features",
+      "expected": "Should display internationalization and localization features for global course delivery",
+      "value": 1.5
+    },
+    {
+      "step": 10,
+      "action": "Navigate to /admin/enterprise",
+      "expected": "Enterprise features should load with SSO, compliance tracking, and advanced security",
+      "value": 1.0
+    }
+  ]
+} 

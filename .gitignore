@@ -1,0 +1,55 @@
+.DS_Store
+
+# Environment variables
+.env
+
+# Run artifacts
+/runs/
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+/build/
+/dist/
+*.egg-info/ 
+
+# Terraform state files (workspace-based structure)
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/terraform.tfstate.d/
+terraform/terraform.tfvars
+
+# Generic terraform patterns
+*.tfplan
+*.tfplan.*
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Terraform crash log files
+crash.log
+crash.*.log
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+temp/
+
+benchmarking/results/
+analysis/data/

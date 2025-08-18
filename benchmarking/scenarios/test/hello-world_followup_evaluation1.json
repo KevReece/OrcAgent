@@ -1,0 +1,25 @@
+{
+  "name": "followup_add_goodbye",
+  "description": "Verify 'Goodbye' has been added while preserving 'Hello World'",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /",
+      "expected": "Page should contain the word 'Hello'",
+      "value": 0.5
+    },
+    {
+      "step": 2,
+      "action": "Check content",
+      "expected": "Page should contain the word 'World'",
+      "value": 0.5
+    },
+    {
+      "step": 3,
+      "action": "Check follow-up addition",
+      "expected": "Page should contain the word 'Goodbye'",
+      "value": 1.0
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "technical_implementation_evaluation",
+  "description": "Test technical implementation, SEO optimization, and admin functionality",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /",
+      "expected": "Website should load via HTTPS with no console errors or broken elements",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Click on navigation menu items",
+      "expected": "Should have clear navigation menu and logical site structure with working links",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Submit contact form with test data",
+      "expected": "Should display a confirmation message indicating successful submission",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /admin/contact",
+      "expected": "Admin page should be accessible at /admin/contact and display the submitted contact form data",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on contact form entry",
+      "expected": "Admin page should show the submitted contact form entry with all customer details including name, email, phone, and message",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /services",
+      "expected": "Services page should display professional branding and consistent design throughout",
+      "value": 1.0
+    }
+  ]
+} 

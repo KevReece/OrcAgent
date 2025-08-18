@@ -1,0 +1,46 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Conventions
+
+## Changes
+
+- Use `uv` for package management.
+- Prefer a light touch when making changes to reduce the review needs.
+- When creating temporary scripts for verifying prompt success, put them in a temp folder.
+- Changes should be made as if by an enterprise principal engineer.
+
+## Code 
+
+- This is a large codebase that needs quality baked in, both in code and architecture.
+- Use explicit types where possible and reasonable
+- Avoid comments unless they explicitly add value to the codebase. And in all cases try to replace comments with a well named variable/function.
+- Always resolve all lint warnings.
+- Ensure the tools are only using environment variables found in env.example, and no default fallbacks.
+- Always use log_wrapper.py for logging. Never print, and never directly import logging.
+- Refactor to small clean well-named functions.
+- All imports must be pruned of unused ones.
+
+## Tests
+
+- Check for sibling unit test files for all edited files, and run them.
+- `pytest` is the preferred test framework.
+- All of the tests should be integration tests.
+- The `test_e2e.py` should use the `main.py` entry point.
+- Skipping of tests is absolutely banned.
+- Missing implementation configuration must cause test failures.
+- Integrations that don't work or aren't found must fail tests.
+- Any missing prerequisite must fail the test.
+- Mocks are absolutely banned.
+- The tests are all integration tests except for the E2E tests. There are no unit tests.
+- Tests must not access private functions.
+- Overriding of environment variables is banned. The tests must only integrate with real values.
+- Tests should either assert a success response or an error response. They must not be permissive of either.
+- For manual tests, use gpt-4.1-nano when the model isn't important, to save costs.
+
+## AWS
+
+- To reset AWS use `AWSFargateAgentEnvironment` via `Setup.py`.
+

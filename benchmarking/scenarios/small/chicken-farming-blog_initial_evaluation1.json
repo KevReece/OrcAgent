@@ -1,0 +1,43 @@
+{
+  "name": "content_platform_journey_evaluation",
+  "description": "Test the content platform journey from blog to recipes to breeds",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /",
+      "expected": "Homepage should load without errors and display chicken farming blog platform with professional design",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Navigate to /blog",
+      "expected": "Blog page should load and display at least 10 high-quality articles about chicken farming",
+      "value": 1.0
+    },
+    {
+      "step": 3,
+      "action": "Click on blog article",
+      "expected": "Should display articles covering raising, feeding, housing, and health topics with detailed content",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /recipes",
+      "expected": "Recipe database should load with 20+ chicken egg recipes and meal planning features",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on recipe item",
+      "expected": "Should display detailed recipes with ingredients, instructions, and meal planning options",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /breeds",
+      "expected": "Interactive chicken breed selector tool should load with care requirements and recommendations",
+      "value": 1.0
+    }
+  ]
+} 

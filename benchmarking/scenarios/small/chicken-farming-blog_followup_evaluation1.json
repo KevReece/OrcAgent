@@ -1,0 +1,43 @@
+{
+  "name": "premium_membership_journey_evaluation",
+  "description": "Test the premium membership and community features journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /premium",
+      "expected": "Premium membership program should load with exclusive content and early access to guides",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'member' and password 'member123'",
+      "expected": "Should authenticate premium member and grant access to exclusive content",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on premium content",
+      "expected": "Should display exclusive content and early access to guides for premium members",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /community",
+      "expected": "Community features should load with member profiles, forums, and engagement tools",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on community forum",
+      "expected": "Should display member profiles, forums, and engagement tools for community building",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /admin/analytics",
+      "expected": "Content analytics should load with engagement metrics and audience insights",
+      "value": 1.0
+    }
+  ]
+} 

@@ -1,0 +1,67 @@
+{
+  "name": "core_inventory_journey_evaluation",
+  "description": "Test the core inventory management journey from login to supplier management",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /",
+      "expected": "Homepage should load without errors and display inventory management system with professional design",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Navigate to /auth",
+      "expected": "User authentication system should load with role-based access control (admins, managers, staff)",
+      "value": 1.0
+    },
+    {
+      "step": 3,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to dashboard",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /dashboard",
+      "expected": "Dashboard should display overview of inventory status, alerts, and key metrics",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Navigate to /products",
+      "expected": "Product catalog management should load with categories, variants, pricing, and supplier information",
+      "value": 1.0
+    },
+    {
+      "step": 6,
+      "action": "Click on product category",
+      "expected": "Should allow managing product categories, variants, pricing, and supplier information",
+      "value": 1.5
+    },
+    {
+      "step": 7,
+      "action": "Navigate to /inventory",
+      "expected": "Real-time inventory tracking should load with barcode scanning, stock levels, and automated reorder points",
+      "value": 1.0
+    },
+    {
+      "step": 8,
+      "action": "Click on inventory tracking",
+      "expected": "Should display real-time stock levels, barcode scanning capability, and automated reorder points",
+      "value": 1.5
+    },
+    {
+      "step": 9,
+      "action": "Navigate to /purchase-orders",
+      "expected": "Purchase order management system should load with supplier integration and approval workflows",
+      "value": 1.0
+    },
+    {
+      "step": 10,
+      "action": "Click on create purchase order",
+      "expected": "Should allow creating purchase orders with supplier integration and approval workflows",
+      "value": 1.5
+    }
+  ]
+} 

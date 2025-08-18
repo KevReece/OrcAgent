@@ -1,0 +1,55 @@
+{
+  "name": "customer_ordering_journey_evaluation",
+  "description": "Test the complete customer ordering journey from menu browsing to order completion",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /",
+      "expected": "Homepage should load without errors and display restaurant ordering platform with professional design",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Navigate to /menu",
+      "expected": "Customer-facing ordering interface should load with menu display, cart functionality, and secure checkout",
+      "value": 1.0
+    },
+    {
+      "step": 3,
+      "action": "Click on menu category",
+      "expected": "Should display menu items with categories, pricing, availability, and dietary information",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Click add to cart button",
+      "expected": "Should allow adding menu items to cart with quantity selection and price calculation",
+      "value": 1.5
+    },
+    {
+      "step": 5,
+      "action": "Navigate to /checkout",
+      "expected": "Payment processing should load with multiple payment methods (credit cards, digital wallets)",
+      "value": 1.0
+    },
+    {
+      "step": 6,
+      "action": "Fill payment form with test data",
+      "expected": "Should accept payment information and process order securely",
+      "value": 1.5
+    },
+    {
+      "step": 7,
+      "action": "Navigate to /track",
+      "expected": "Order tracking system should load with real-time status updates and estimated delivery times",
+      "value": 1.0
+    },
+    {
+      "step": 8,
+      "action": "Check order status",
+      "expected": "Should display real-time order status updates and estimated delivery times",
+      "value": 1.5
+    }
+  ]
+} 

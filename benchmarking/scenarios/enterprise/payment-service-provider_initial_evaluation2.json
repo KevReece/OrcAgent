@@ -1,0 +1,67 @@
+{
+  "name": "merchant_dashboard_journey_evaluation",
+  "description": "Test the merchant dashboard and compliance features journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /merchant/dashboard",
+      "expected": "Merchant dashboard should load with transaction analytics, settlement reports, and dispute management",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'merchant' and password 'merchant123'",
+      "expected": "Should authenticate merchant user and grant access to merchant dashboard",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on transaction analytics",
+      "expected": "Should display transaction analytics, settlement reports, and dispute management tools for merchants",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /api",
+      "expected": "API development should be accessible for merchant integration with SDKs and documentation",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on API documentation",
+      "expected": "Should provide comprehensive API documentation and SDKs for merchant integration",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /admin/security",
+      "expected": "Security infrastructure should load with PCI DSS compliance, encryption, and tokenization",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on security features",
+      "expected": "Should display PCI DSS compliance, encryption, and tokenization capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /admin/compliance",
+      "expected": "Regulatory compliance system should load with audit trails, reporting, and regulatory submissions",
+      "value": 1.0
+    },
+    {
+      "step": 9,
+      "action": "Click on compliance reporting",
+      "expected": "Should display audit trails, regulatory reporting, and submission capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 10,
+      "action": "Navigate to /admin/dashboard",
+      "expected": "Admin dashboard should load with platform overview, monitoring, and management tools",
+      "value": 1.0
+    }
+  ]
+} 

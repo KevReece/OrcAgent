@@ -1,0 +1,67 @@
+{
+  "name": "quality_analytics_journey_evaluation",
+  "description": "Test the quality management and analytics journey for supply chain",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /quality",
+      "expected": "Quality management system should load with inspection protocols, compliance tracking, and corrective actions",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to quality management",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on quality inspection",
+      "expected": "Should provide inspection protocols, compliance tracking, and corrective action capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /admin/analytics",
+      "expected": "Advanced analytics and reporting dashboard should load with supply chain performance, cost analysis, and risk assessment",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on analytics dashboard",
+      "expected": "Should display supply chain performance, cost analysis, and risk assessment metrics",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /admin/dashboard",
+      "expected": "Executive dashboard should display supply chain overview, KPIs, and strategic insights",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on executive dashboard",
+      "expected": "Should display supply chain overview, KPIs, and strategic insights for executives",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /mobile",
+      "expected": "Mobile application should load for warehouse and logistics staff with offline capabilities and real-time updates",
+      "value": 1.0
+    },
+    {
+      "step": 9,
+      "action": "Click on mobile features",
+      "expected": "Should provide mobile interface with offline capabilities and real-time updates for staff",
+      "value": 1.5
+    },
+    {
+      "step": 10,
+      "action": "Navigate to /integrations",
+      "expected": "Integration system should load with ERP systems, transportation management, and supplier portals",
+      "value": 1.0
+    }
+  ]
+} 

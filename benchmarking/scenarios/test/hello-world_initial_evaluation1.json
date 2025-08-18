@@ -1,0 +1,19 @@
+{
+  "name": "hello_world_presence",
+  "description": "Verify the production site renders 'Hello World' with minimal implementation",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /",
+      "expected": "Page should contain the word 'Hello'",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Check content",
+      "expected": "Page should contain the word 'World'",
+      "value": 1.0
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "local_seo_journey_evaluation",
+  "description": "Test the local SEO optimization and technical deployment journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /admin",
+      "expected": "Admin dashboard should load with marketing analytics and lead management tools",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to marketing dashboard",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on marketing analytics",
+      "expected": "Should display marketing analytics and lead management tools for business growth",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /admin/seo",
+      "expected": "Local SEO optimization should load with Portland-specific keywords and location targeting",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on local SEO",
+      "expected": "Should display Portland-specific keyword optimization and location targeting features",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /api",
+      "expected": "API development should be accessible for third-party integrations and automation",
+      "value": 1.0
+    }
+  ]
+} 

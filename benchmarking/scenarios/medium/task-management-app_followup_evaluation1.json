@@ -1,0 +1,55 @@
+{
+  "name": "business_intelligence_journey_evaluation",
+  "description": "Test the business intelligence and client portal journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /admin/analytics",
+      "expected": "Advanced reporting and business intelligence dashboard should load with custom KPIs",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to business intelligence",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on business intelligence",
+      "expected": "Should display advanced reporting and custom KPIs for business insights",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /client-portal",
+      "expected": "Client portal should load with branded interfaces and project progress tracking",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on client portal",
+      "expected": "Should display branded interfaces and project progress tracking for external stakeholders",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /admin/security",
+      "expected": "Advanced security features should load including SSO, 2FA, and audit logs",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on security features",
+      "expected": "Should display SSO, 2FA, and audit log capabilities for enterprise security",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /api",
+      "expected": "API development should be accessible for third-party integrations and custom workflow automation",
+      "value": 1.0
+    }
+  ]
+} 

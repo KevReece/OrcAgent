@@ -1,0 +1,43 @@
+{
+  "name": "customer_journey_evaluation",
+  "description": "Test the complete customer journey from homepage discovery to contact form submission",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /",
+      "expected": "Homepage should load without errors and display professional design with electrician service information",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Click on testimonials section",
+      "expected": "Should display testimonials section with 3+ customer reviews showing names, locations, and detailed feedback",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Navigate to /services",
+      "expected": "Services page should load at /services and display transparent pricing for electrical services",
+      "value": 1.0
+    },
+    {
+      "step": 4,
+      "action": "Click on service pricing",
+      "expected": "Should display specific pricing amounts for services like electrical repairs, installations, inspections with dollar values",
+      "value": 1.5
+    },
+    {
+      "step": 5,
+      "action": "Navigate to /",
+      "expected": "Contact form should be visible on homepage with name, email, phone, and message fields prominently displayed",
+      "value": 1.0
+    },
+    {
+      "step": 6,
+      "action": "Fill form fields: name 'John Doe', email 'john@test.com', phone '555-123-4567', message 'Test message'",
+      "expected": "Form should accept input for all required fields without validation errors",
+      "value": 1.5
+    }
+  ]
+} 

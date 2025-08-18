@@ -1,0 +1,55 @@
+{
+  "name": "enterprise_features_journey_evaluation",
+  "description": "Test the enterprise features and staff training journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /admin/training",
+      "expected": "Staff training system should load with enterprise features and business intelligence guides",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to training system",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on training materials",
+      "expected": "Should display enterprise features and business intelligence training materials",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /admin/enterprise",
+      "expected": "Enterprise features should load with SSO, advanced security, and compliance tools",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on enterprise security",
+      "expected": "Should display SSO, advanced security, and compliance tools for enterprise use",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /admin/scalability",
+      "expected": "Scalability features should load with multi-tenant architecture and performance optimization",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on scalability features",
+      "expected": "Should display multi-tenant architecture and performance optimization capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /admin/integrations",
+      "expected": "Integration system should load with third-party connectors and custom workflow automation",
+      "value": 1.0
+    }
+  ]
+} 

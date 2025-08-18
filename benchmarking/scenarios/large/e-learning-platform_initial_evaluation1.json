@@ -1,0 +1,67 @@
+{
+  "name": "learning_journey_evaluation",
+  "description": "Test the complete learning journey from authentication to course completion",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /",
+      "expected": "Homepage should load without errors and display e-learning platform with professional design",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Navigate to /auth",
+      "expected": "User authentication system should load with role-based access control (students, instructors, admins)",
+      "value": 1.0
+    },
+    {
+      "step": 3,
+      "action": "Fill login form with username 'student' and password 'student123'",
+      "expected": "Should authenticate student user and grant access to learning dashboard",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /courses",
+      "expected": "Course creation and management system should load with multimedia content support",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on course item",
+      "expected": "Should display courses with video, audio, and document content support",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /student/dashboard",
+      "expected": "Student enrollment and progress tracking system should load with personalized learning paths",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on progress tracking",
+      "expected": "Should display enrollment status, progress tracking, and personalized learning paths",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /videos",
+      "expected": "Video streaming platform should load with adaptive bitrate, closed captions, and offline viewing",
+      "value": 1.0
+    },
+    {
+      "step": 9,
+      "action": "Click on video player",
+      "expected": "Should provide adaptive bitrate streaming, closed captions, and offline viewing capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 10,
+      "action": "Navigate to /instructor",
+      "expected": "Instructor dashboard should load for course management, student tracking, and content creation",
+      "value": 1.0
+    }
+  ]
+} 

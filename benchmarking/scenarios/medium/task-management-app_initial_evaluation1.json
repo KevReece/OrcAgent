@@ -1,0 +1,55 @@
+{
+  "name": "core_task_management_journey_evaluation",
+  "description": "Test the core task management journey from login to task creation and collaboration",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /",
+      "expected": "Homepage should load without errors and display task management platform with professional design",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Navigate to /auth",
+      "expected": "User authentication system should load with role-based access control (admins, managers, staff)",
+      "value": 1.0
+    },
+    {
+      "step": 3,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate user and grant access to dashboard",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /dashboard",
+      "expected": "Dashboard should display overview of tasks, projects, and team activity",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Navigate to /tasks",
+      "expected": "Task creation and assignment system should load with priority levels, due dates, and dependencies",
+      "value": 1.0
+    },
+    {
+      "step": 6,
+      "action": "Click on create task button",
+      "expected": "Should allow creating tasks with priority levels, due dates, and dependency settings",
+      "value": 1.5
+    },
+    {
+      "step": 7,
+      "action": "Navigate to /projects",
+      "expected": "Project organization should load with workspaces, teams, and role-based access control",
+      "value": 1.0
+    },
+    {
+      "step": 8,
+      "action": "Click on project management",
+      "expected": "Should allow creating projects with team assignments and role-based permissions",
+      "value": 1.5
+    }
+  ]
+} 

@@ -1,0 +1,53 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Repository context
+
+This project is a demonstration and benchmarking of using an LLM AI with dynamic role generation to orchestrate multiple agentic AIs to solve large-scale complex software development projects (in contrast to having a collaboration of multiple static roles or just having a single role AI using the agent tools).
+
+## Package Management 
+
+`uv`
+
+Before running any commands, the virtual environment needs activating with: `source .venv/bin/activate`
+
+## Folder Structure
+
+- `main.py`: entry point for the agent runner. Triggers agent environment setup, starts the agents, logs the output.
+- `agent_environment`: classes for set up and tear down of the agent environment.
+- `terraform`: definitions and state for the agent project hosting, managed by an agent environment class.
+- `tools`: the tools available to the agents to carry out the tasks.  
+
+## Testing
+
+Testing is generally integration testing as sibling `test_` prefix files.
+
+There is also a root `test_e2e.py`, that E2E tests the whole integrated project, including agents environments, agents and tools.
+
+The preferred test framework is `pytest`.
+
+## Key Dependencies
+
+- `AutoGen`: used for running the multiple of agents and managing communication.
+
+## Agent Environment
+
+- `Notion`: used for the agent planning, and delivered project artifacts (other than code).
+- `Git`: a local folder is allocated for each agent, where they manage a git repo.
+- `Github`: a empty sandbox repo is free for agent use, including PRs and CI/CD actions.
+- `Docker`: used for packaging and running of agent produced software.
+- `AWS`: used for the agent project environment.
+- `AWS Fargate`: dev/test/prod instances for hosting the agent project.
+
+## Key Commands
+
+- `uv pip install -r requirements.txt`
+- `source .venv/bin/activate`
+- `python setup.py`
+- `python main.py`
+- `python main.py --prompt "Do this task"`
+- `pytest tools/`
+- `pytest agent_environment/`
+- `pytest test_e2e.py -v`

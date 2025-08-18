@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="agent-team" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Subgraph: Agent mode: Team -->
+        <mxCell id="team" value="Agent mode: Team" style="swimlane;html=1;align=center;verticalAlign=top;startSize=28;container=1;collapsible=0;rounded=0;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="1120" height="320" as="geometry"/>
+        </mxCell>
+
+        <!-- Team nodes -->
+        <mxCell id="gm" value="general_manager_worker&lt;br/&gt;(general_manager)&lt;br/&gt;&lt;b&gt;INITIATOR&lt;/b&gt;" style="shape=rect;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="team">
+          <mxGeometry x="60" y="60" width="200" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="pm" value="product_manager_worker&lt;br/&gt;(product_manager)" style="shape=rect;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="team">
+          <mxGeometry x="280" y="60" width="200" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="ds" value="designer_worker&lt;br/&gt;(designer)" style="shape=rect;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="team">
+          <mxGeometry x="500" y="60" width="200" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="dev" value="developer_worker&lt;br/&gt;(developer)" style="shape=rect;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="team">
+          <mxGeometry x="720" y="60" width="200" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="ts" value="tester_worker&lt;br/&gt;(tester)" style="shape=rect;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="team">
+          <mxGeometry x="940" y="60" width="200" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Team edges: gm to others (solid, undirected) -->
+        <mxCell id="e_gm_pm" style="endArrow=none;strokeWidth=1.5;" edge="1" parent="team" source="gm" target="pm">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_gm_ds" style="endArrow=none;strokeWidth=1.5;" edge="1" parent="team" source="gm" target="ds">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_gm_dev" style="endArrow=none;strokeWidth=1.5;" edge="1" parent="team" source="gm" target="dev">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_gm_ts" style="endArrow=none;strokeWidth=1.5;" edge="1" parent="team" source="gm" target="ts">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Team dashed edges among pm, ds, dev, ts (undirected) -->
+        <mxCell id="e_pm_ds" style="endArrow=none;dashed=1;dashPattern=3 3;strokeWidth=1.3;" edge="1" parent="team" source="pm" target="ds">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_pm_dev" style="endArrow=none;dashed=1;dashPattern=3 3;strokeWidth=1.3;" edge="1" parent="team" source="pm" target="dev">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_pm_ts" style="endArrow=none;dashed=1;dashPattern=3 3;strokeWidth=1.3;" edge="1" parent="team" source="pm" target="ts">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_ds_dev" style="endArrow=none;dashed=1;dashPattern=3 3;strokeWidth=1.3;" edge="1" parent="team" source="ds" target="dev">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_ds_ts" style="endArrow=none;dashed=1;dashPattern=3 3;strokeWidth=1.3;" edge="1" parent="team" source="ds" target="ts">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_dev_ts" style="endArrow=none;dashed=1;dashPattern=3 3;strokeWidth=1.3;" edge="1" parent="team" source="dev" target="ts">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Subgraph: Agent mode: Orchestrator -->
+        <mxCell id="orch" value="Agent mode: Orchestrator" style="swimlane;html=1;align=center;verticalAlign=top;startSize=28;container=1;collapsible=0;rounded=0;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="60" y="520" width="520" height="200" as="geometry"/>
+        </mxCell>
+
+        <!-- Orchestrator nodes -->
+        <mxCell id="or" value="orchestrator&lt;br/&gt;(orchestrator)&lt;br/&gt;&lt;b&gt;INITIATOR&lt;/b&gt;" style="shape=rect;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="orch">
+          <mxGeometry x="60" y="60" width="220" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="wo" value="workers&lt;br/&gt;(roles)" style="shape=rect;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;dashed=1;dashPattern=2 2;strokeWidth=2;" vertex="1" parent="orch">
+          <mxGeometry x="300" y="60" width="160" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Orchestrator edge (undirected) -->
+        <mxCell id="e_or_wo" style="endArrow=none;strokeWidth=1.5;" edge="1" parent="orch" source="or" target="wo">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- External User Prompts -->
+        <mxCell id="up" value="User Prompt" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="up2" value="User Prompt" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="460" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- External arrows -->
+        <mxCell id="e_up_gm" style="endArrow=classic;strokeWidth=1.5;" edge="1" parent="1" source="up" target="gm">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_up2_or" style="endArrow=classic;strokeWidth=1.5;" edge="1" parent="1" source="up2" target="or">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

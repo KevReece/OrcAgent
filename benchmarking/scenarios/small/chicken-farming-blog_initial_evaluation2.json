@@ -1,0 +1,43 @@
+{
+  "name": "community_admin_journey_evaluation",
+  "description": "Test the community features and admin functionality journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /forum",
+      "expected": "Community forum should load for chicken farmers to share experiences and ask questions",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Click on forum post",
+      "expected": "Should allow users to view posts, create new topics, and interact with community",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Navigate to /admin/analytics",
+      "expected": "Analytics dashboard should show blog traffic, newsletter subscribers, and popular content",
+      "value": 1.0
+    },
+    {
+      "step": 4,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to analytics dashboard",
+      "value": 1.5
+    },
+    {
+      "step": 5,
+      "action": "Click on traffic metrics",
+      "expected": "Should display traffic metrics, subscriber data, and content popularity statistics",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /resources",
+      "expected": "Resource library should load with downloadable guides for chicken care, coop building, and health",
+      "value": 1.0
+    }
+  ]
+} 

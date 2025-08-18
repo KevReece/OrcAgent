@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.1.0">
+  <diagram name="Page-1" id="BdsO8M3sNY_RQmiR0NW_">
+    <mxGraphModel dx="1018" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="520" y="100" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="150" y="100" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="kt6LodZyFI1so6Qpc4CF-1" target="kt6LodZyFI1so6Qpc4CF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kt6LodZyFI1so6Qpc4CF-1" target="kt6LodZyFI1so6Qpc4CF-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kt6LodZyFI1so6Qpc4CF-1" target="kt6LodZyFI1so6Qpc4CF-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kt6LodZyFI1so6Qpc4CF-1" target="kt6LodZyFI1so6Qpc4CF-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kt6LodZyFI1so6Qpc4CF-1" target="kt6LodZyFI1so6Qpc4CF-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kt6LodZyFI1so6Qpc4CF-1" target="kt6LodZyFI1so6Qpc4CF-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kt6LodZyFI1so6Qpc4CF-1" target="kt6LodZyFI1so6Qpc4CF-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kt6LodZyFI1so6Qpc4CF-1" target="kt6LodZyFI1so6Qpc4CF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-50" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kt6LodZyFI1so6Qpc4CF-1" target="kt6LodZyFI1so6Qpc4CF-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kt6LodZyFI1so6Qpc4CF-1" target="kt6LodZyFI1so6Qpc4CF-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-52" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kt6LodZyFI1so6Qpc4CF-1" target="kt6LodZyFI1so6Qpc4CF-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-1" value="Agent&lt;div&gt;Worker&lt;/div&gt;&lt;div&gt;Executor&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-2" value="Agent Specific &lt;br&gt;Local Directory&lt;div&gt;(containing git clone)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-3" value="Github&lt;div&gt;Repo&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-28" value="Github&lt;div&gt;PRs&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-29" value="Github&lt;div&gt;Actions&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-33" value="AWS Fargate Dockerised Services&lt;div&gt;(Dev/Test/Prod&lt;/div&gt;&lt;div&gt;applications)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-34" value="AWS ECR&amp;nbsp;&lt;div&gt;(Docker repository)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-35" value="AWS Load Balancers&lt;div&gt;(Dev/Test/Prod access)&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-36" value="Notion&lt;div&gt;(Shared Documentation)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-37" value="Playwright Server (Web automation)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-38" value="Role/Worker Repository" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kt6LodZyFI1so6Qpc4CF-39" value="Worker Memory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

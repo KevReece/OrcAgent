@@ -1,0 +1,67 @@
+{
+  "name": "staff_training_journey_evaluation",
+  "description": "Test the staff training and API development journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /admin/training",
+      "expected": "Staff training system should load with advanced inventory features and business optimization guides",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to training system",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on training materials",
+      "expected": "Should display advanced inventory features and business optimization training materials",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /api",
+      "expected": "API development should be accessible for third-party integrations and custom business process automation",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on API documentation",
+      "expected": "Should display API endpoints for third-party integrations and custom business process automation",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /admin/optimization",
+      "expected": "Business optimization tools should load with performance metrics and efficiency tracking",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on optimization tools",
+      "expected": "Should display performance metrics and efficiency tracking for business optimization",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /admin/scalability",
+      "expected": "Scalability features should load with enterprise-grade architecture and growth planning",
+      "value": 1.0
+    },
+    {
+      "step": 9,
+      "action": "Click on scalability features",
+      "expected": "Should display enterprise-grade architecture and growth planning capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 10,
+      "action": "Navigate to /admin/integrations",
+      "expected": "Integration system should load with third-party connectors and custom business process automation",
+      "value": 1.0
+    }
+  ]
+} 

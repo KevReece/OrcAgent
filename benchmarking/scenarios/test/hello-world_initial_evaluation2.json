@@ -1,0 +1,13 @@
+{
+  "name": "hello_world_minimal_health",
+  "description": "Sanity check that the production site is reachable for the Hello World test",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Access public URL",
+      "expected": "Site should respond with HTTP 200",
+      "value": 1.0
+    }
+  ]
+}

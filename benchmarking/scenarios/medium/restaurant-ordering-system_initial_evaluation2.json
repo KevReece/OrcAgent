@@ -1,0 +1,55 @@
+{
+  "name": "staff_management_journey_evaluation",
+  "description": "Test the staff management journey from login to order management and analytics",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /staff",
+      "expected": "Restaurant staff dashboard should load for order management, kitchen display, and customer communication",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate staff user and grant access to dashboard",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on order management section",
+      "expected": "Should display order management, kitchen display, and customer communication tools",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /admin/menu",
+      "expected": "Menu management system should load with categories, pricing, availability, and dietary information",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on menu item to edit",
+      "expected": "Should allow managing menu categories, pricing, availability, and dietary information",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /admin/delivery",
+      "expected": "Delivery management system should load with driver assignment and route optimization",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on driver assignment",
+      "expected": "Should display driver assignment and route optimization features",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /admin/analytics",
+      "expected": "Analytics dashboard should load showing sales data, popular items, peak hours, and customer insights",
+      "value": 1.0
+    }
+  ]
+} 

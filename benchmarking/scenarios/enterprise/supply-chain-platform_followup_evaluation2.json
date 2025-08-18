@@ -1,0 +1,67 @@
+{
+  "name": "sustainability_multi_enterprise_journey_evaluation",
+  "description": "Test the sustainability tracking and multi-enterprise features journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /admin/sustainability",
+      "expected": "Sustainability tracking should load with carbon footprint management",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to sustainability dashboard",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on sustainability tracking",
+      "expected": "Should display carbon footprint management features",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /admin/cost-optimization",
+      "expected": "Advanced cost optimization should load with total cost of ownership analysis",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on cost optimization",
+      "expected": "Should display total cost of ownership analysis features",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /admin/iot-visibility",
+      "expected": "Real-time supply chain visibility should load with IoT integration and sensor data",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on IoT visibility",
+      "expected": "Should display IoT integration and sensor data capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /admin/multi-enterprise",
+      "expected": "Multi-enterprise architecture should load for complex supply chain networks",
+      "value": 1.0
+    },
+    {
+      "step": 9,
+      "action": "Click on multi-enterprise features",
+      "expected": "Should display complex supply chain network capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 10,
+      "action": "Navigate to /admin/training",
+      "expected": "Staff training system should load with advanced supply chain features and global operations guides",
+      "value": 1.0
+    }
+  ]
+} 

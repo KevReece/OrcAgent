@@ -1,0 +1,43 @@
+{
+  "name": "marketing_strategy_journey_evaluation",
+  "description": "Test the marketing strategy and lead generation features journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /",
+      "expected": "Homepage should load with enhanced marketing features and lead generation tools",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Click on newsletter signup form",
+      "expected": "Should provide email marketing integration with newsletter signup and downloadable lead magnet",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Navigate to /referral-program",
+      "expected": "Customer referral program should load with tracking and reward system",
+      "value": 1.0
+    },
+    {
+      "step": 4,
+      "action": "Click on referral program",
+      "expected": "Should display referral tracking and reward system for customer referrals",
+      "value": 1.5
+    },
+    {
+      "step": 5,
+      "action": "Navigate to /admin/marketing",
+      "expected": "Marketing strategy dashboard should load with target audience analysis and competitive positioning",
+      "value": 1.0
+    },
+    {
+      "step": 6,
+      "action": "Click on marketing strategy",
+      "expected": "Should display target audience analysis, competitive positioning, and lead generation strategy",
+      "value": 1.5
+    }
+  ]
+} 

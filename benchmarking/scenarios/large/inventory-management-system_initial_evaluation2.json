@@ -1,0 +1,67 @@
+{
+  "name": "multi_location_journey_evaluation",
+  "description": "Test the multi-location and integration journey for inventory management",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /suppliers",
+      "expected": "Supplier management system should load with performance tracking, contract management, and communication tools",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to supplier management",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on supplier performance",
+      "expected": "Should display supplier performance tracking, contract management, and communication tools",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /locations",
+      "expected": "Multi-location inventory synchronization should load with centralized control and local autonomy",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on location management",
+      "expected": "Should display centralized control with local autonomy for different locations",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /admin/analytics",
+      "expected": "Advanced reporting and analytics dashboard should load with sales trends, stock turnover, and profitability analysis",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on analytics dashboard",
+      "expected": "Should display sales trends, stock turnover, and profitability analysis",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /integrations",
+      "expected": "Integration system should load with POS systems, accounting software, and e-commerce platforms",
+      "value": 1.0
+    },
+    {
+      "step": 9,
+      "action": "Click on integration option",
+      "expected": "Should display integration options for POS systems, accounting software, and e-commerce platforms",
+      "value": 1.5
+    },
+    {
+      "step": 10,
+      "action": "Navigate to /mobile",
+      "expected": "Mobile application should load for warehouse staff with offline capabilities and barcode scanning",
+      "value": 1.0
+    }
+  ]
+} 

@@ -1,0 +1,67 @@
+{
+  "name": "payment_processing_journey_evaluation",
+  "description": "Test the complete payment processing journey from onboarding to transaction processing",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /",
+      "expected": "Homepage should load without errors and display payment service provider platform with professional design",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Navigate to /auth",
+      "expected": "User authentication system should load with role-based access control (merchants, admins, compliance officers)",
+      "value": 1.0
+    },
+    {
+      "step": 3,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to platform",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /onboarding",
+      "expected": "Merchant onboarding system should load with KYC/AML verification, business validation, and compliance checks",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on onboarding form",
+      "expected": "Should provide KYC/AML verification, business validation, and compliance check functionality",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /payments",
+      "expected": "Multi-payment method processing should load supporting credit cards, debit cards, bank transfers, digital wallets",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on payment method",
+      "expected": "Should support multiple payment methods including credit cards, debit cards, bank transfers, and digital wallets",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /transactions",
+      "expected": "Transaction processing engine should load with real-time authorization, settlement, and reconciliation",
+      "value": 1.0
+    },
+    {
+      "step": 9,
+      "action": "Click on transaction processing",
+      "expected": "Should provide real-time authorization, settlement, and reconciliation capabilities",
+      "value": 1.5
+    },
+    {
+      "step": 10,
+      "action": "Navigate to /fraud-detection",
+      "expected": "Fraud detection and prevention system should load with machine learning algorithms and risk scoring",
+      "value": 1.0
+    }
+  ]
+} 

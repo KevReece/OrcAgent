@@ -1,0 +1,55 @@
+{
+  "name": "loyalty_marketing_journey_evaluation",
+  "description": "Test the loyalty program and marketing automation journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /loyalty",
+      "expected": "Loyalty program system should load with points, rewards, and tier-based benefits",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Click on loyalty points display",
+      "expected": "Should display points, rewards, and tier-based benefits for repeat customers",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Navigate to /admin/marketing",
+      "expected": "Marketing automation system should load with personalized promotions and email campaigns",
+      "value": 1.0
+    },
+    {
+      "step": 4,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to marketing automation",
+      "value": 1.5
+    },
+    {
+      "step": 5,
+      "action": "Click on email campaign creation",
+      "expected": "Should display personalized promotions and email campaign creation features",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /admin/feedback",
+      "expected": "Customer feedback system should load with sentiment analysis and review tracking",
+      "value": 1.0
+    },
+    {
+      "step": 7,
+      "action": "Click on feedback analysis",
+      "expected": "Should display sentiment analysis and customer feedback tracking features",
+      "value": 1.5
+    },
+    {
+      "step": 8,
+      "action": "Navigate to /admin/finance",
+      "expected": "Financial reporting system should load with cost analysis and profit margins",
+      "value": 1.0
+    }
+  ]
+} 

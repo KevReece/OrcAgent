@@ -1,0 +1,43 @@
+{
+  "name": "content_management_journey_evaluation",
+  "description": "Test the content management and staff training features journey",
+  "initial_page": "/",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Navigate to /admin/content",
+      "expected": "Content management system should load with editorial calendar and publishing tools",
+      "value": 1.0
+    },
+    {
+      "step": 2,
+      "action": "Fill login form with username 'admin' and password 'admin123'",
+      "expected": "Should authenticate admin user and grant access to content management",
+      "value": 1.5
+    },
+    {
+      "step": 3,
+      "action": "Click on content management",
+      "expected": "Should display editorial calendar and publishing tools for content management",
+      "value": 1.5
+    },
+    {
+      "step": 4,
+      "action": "Navigate to /admin/training",
+      "expected": "Staff training system should load with content monetization and community management guides",
+      "value": 1.0
+    },
+    {
+      "step": 5,
+      "action": "Click on training materials",
+      "expected": "Should display content monetization and community management training materials",
+      "value": 1.5
+    },
+    {
+      "step": 6,
+      "action": "Navigate to /mobile",
+      "expected": "Mobile-responsive design should load with optimized mobile experience",
+      "value": 1.0
+    }
+  ]
+} 

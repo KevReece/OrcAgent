@@ -1,0 +1,25 @@
+# Example terraform.tfvars file
+# Copy this to terraform.tfvars and customize for your deployment
+
+# AWS region for infrastructure deployment
+aws_region = "eu-central-1"
+
+# List of app environments to create within ECS Fargate
+# These are the environments within each account environment (test/sandbox)
+app_environments = ["dev", "test", "prod"]
+
+# Container configuration
+container_port = 8080
+cpu            = "256"
+memory         = "512"
+
+# Monitoring and logging
+enable_container_insights = false
+log_retention_days       = 7
+
+# Additional tags for resources
+tags = {
+  Environment = "orc_agent"
+  Purpose     = "agent_development"
+  Owner       = "your-name"
+} 
