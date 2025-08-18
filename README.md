@@ -1,4 +1,4 @@
-# OrcAI
+# OrcAgent
 
 This project is a demonstration and benchmarking of using an LLM AI with dynamic role generation to orchestrate multiple agentic AIs to solve large-scale complex software development projects (in contrast to having a collaboration of multiple static roles or just having a single role AI using the agent tools).
 
